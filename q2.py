@@ -12,7 +12,7 @@ for i in range(num_produtos):
         contagem_maior_50 += 1
     else:
         contagem_menor_50 += 1
-print("\n--- Resumo das Vendas ---")
+print(" Resumo das Vendas")
 print(f"Valor total dos produtos vendidos: R$ {total_vendas:.2f}")
 print(f"Quantidade de produtos com valor > 50 reais: {contagem_maior_50}")
 print(f"Quantidade de produtos com valor < 50 reais: {contagem_menor_50}")
